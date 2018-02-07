@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const _ = require('../index');
+const _ = require('../lib/index');
 
 describe('Testing', function() {
 	it('should findIndex', function() {
