@@ -88,8 +88,7 @@ function find(o, condition) {
   return result;
 }
 
-
-module.exports = {
+var _ = {
   find,
   forEach,
   map,
@@ -97,3 +96,7 @@ module.exports = {
   dropWhile,
   findIndex
 };
+
+export default _;
+
+

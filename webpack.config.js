@@ -29,7 +29,8 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         query: {
-          presets: ['es2015','stage-0']
+          presets: ['es2015','stage-0'],
+          plugins:[require('babel-plugin-add-module-exports')]
         }
       }
     ]
